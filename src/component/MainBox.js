@@ -4,8 +4,8 @@ import './MainBox.css'
 
 const MainBox = () => {
   const images = [
-    "http://isweb.joongbu.ac.kr/~jgm/photo/rock.jpeg",
-    "http://isweb.joongbu.ac.kr/~jgm/photo/sissor.jpeg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkbY9OzMHSZB82QuLpwfO2zHQXgN8kfizfw&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZyR1f4cmbq6F0qS_xKVABuyBo-gI79sDaXw&s",
     "https://blog.kakaocdn.net/dn/bmjB2s/btqXHhp6kpG/TH14W4U612SxKo9uuR2sB0/img.png",
   ];
 

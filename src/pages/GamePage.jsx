@@ -11,11 +11,11 @@ import "./GamePage.css";
 const choice = {
   rock: {
     name: "Rock",
-    img: "http://isweb.joongbu.ac.kr/~jgm/photo/rock.jpeg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkbY9OzMHSZB82QuLpwfO2zHQXgN8kfizfw&s",
   },
   scissors: {
     name: "Scissors",
-    img: "http://isweb.joongbu.ac.kr/~jgm/photo/sissor.jpeg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZyR1f4cmbq6F0qS_xKVABuyBo-gI79sDaXw&s",
   },
   paper: {
     name: "Paper",
@@ -161,21 +161,21 @@ const GamePage = (props) => {
       >
         <button onClick={() => play("scissors")} className="buttonStyle">
           <img
-            src="http://itsys.hansung.ac.kr/WebEditor/upload/images/gawi.gif"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZyR1f4cmbq6F0qS_xKVABuyBo-gI79sDaXw&s"
             style={{ width: 30, height: 30 }}
             className="buttonChoice"
           />
         </button>
         <button onClick={() => play("rock")} className="buttonStyle">
           <img
-            src="http://itsys.hansung.ac.kr/WebEditor/upload/images/bawi.gif"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJkbY9OzMHSZB82QuLpwfO2zHQXgN8kfizfw&s"
             style={{ width: 30, height: 30 }}
             className="buttonChoice"
           />
         </button>
         <button onClick={() => play("paper")} className="buttonStyle">
           <img
-            src="http://itsys.hansung.ac.kr/WebEditor/upload/images/bo.gif"
+            src="https://blog.kakaocdn.net/dn/bmjB2s/btqXHhp6kpG/TH14W4U612SxKo9uuR2sB0/img.png"
             style={{ width: 30, height: 30 }}
             className="buttonChoice"
           />
